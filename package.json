@@ -1,0 +1,23 @@
+{
+  "name": "frida-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frida",
+    "hack",
+    "hook",
+    "game"
+  ],
+  "author": "wasdjkl",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/frida-gum": "^18.3.1"
+  },
+  "dependencies": {
+    "frida": "^16.0.18"
+  }
+}
