@@ -3,12 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@types/frida-gum': ^18.3.1
   frida: ^16.0.18
+  prettier: 3.0.0-alpha.7-for-vscode
 
 dependencies:
   frida: 16.0.18
 
 devDependencies:
   '@types/frida-gum': 18.3.1
+  prettier: 3.0.0-alpha.7-for-vscode
 
 packages:
 
@@ -183,6 +185,12 @@ packages:
     dependencies:
       wrappy: 1.0.2
     dev: false
+
+  /prettier/3.0.0-alpha.7-for-vscode:
+    resolution: {integrity: sha512-z4XpacIqSq2DUxHK0lR6HhNqG4Ml8ExghDyuNVnBdR5yToxWinyOOsuxAN/x7b+ltfUPm5gtRfecedR0zjzbbA==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /pump/3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}

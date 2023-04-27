@@ -1,6 +1,6 @@
 const frida = require('frida')
 const target = "com.ccyiyo.story";
-const scriptFile = "./hook/GetUserDiamond.js";
+const scriptFile = "./hook/UserDataMgr__UpdateUserDiamond.js";
 const fs = require('fs')
 
 function onProcessCrashed() {
