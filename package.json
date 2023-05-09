@@ -19,6 +19,7 @@
     "prettier": "3.0.0-alpha.7-for-vscode"
   },
   "dependencies": {
+    "chalk": "^5.2.0",
     "frida": "^16.0.18"
   }
 }

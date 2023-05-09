@@ -2,14 +2,16 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/frida-gum': ^18.3.1
+  chalk: ^5.2.0
   frida: ^16.0.18
   prettier: 3.0.0-alpha.7-for-vscode
 
 dependencies:
-  frida: 16.0.18
+  chalk: 5.2.0
+  frida: 16.0.19
 
 devDependencies:
-  '@types/frida-gum': 18.3.1
+  '@types/frida-gum': 18.3.2
   prettier: 3.0.0-alpha.7-for-vscode
 
 packages:
@@ -43,8 +45,8 @@ packages:
       tunnel-agent: 0.6.0
     dev: false
 
-  /@types/frida-gum/18.3.1:
-    resolution: {integrity: sha512-8lD4UQZa7V9+eQ9wfBAf+iLk/bq+u998podeXYTeWQu03sacSF70XL+WcYmhvAkNMF3OS9nkb4VtfRd8Ly7a3A==}
+  /@types/frida-gum/18.3.2:
+    resolution: {integrity: sha512-bso8bJRxrhchNRrOMmT18st/THIdjzxFdcMtJ/gGSYSknJeerQ8ArBwBtlWt/f3pqVVs1Mz1Fg6lvUdjXswa+g==}
     dev: true
 
   /balanced-match/1.0.2:
@@ -80,6 +82,11 @@ packages:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
+    dev: false
+
+  /chalk/5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
   /chownr/1.1.4:
@@ -118,8 +125,8 @@ packages:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
     dev: false
 
-  /frida/16.0.18:
-    resolution: {integrity: sha512-IOY0Y5dG7vopl9aoXiDuWb7g90X8iiXkCt2yFqPFWcGMlFY5q0ptytCVjQOYdf0Y1b/j7nxkZeX6+fycacguFw==}
+  /frida/16.0.19:
+    resolution: {integrity: sha512-P42bwrGZ/HcxpbZhjkAjWLu9Mgv38xbv1KJZexYjjOitKVM2YqG/g8NBrDHejS7TFmseM4iZX5AF10pVpQatdw==}
     engines: {node: '>=8.0.0'}
     requiresBuild: true
     dependencies:
